@@ -1,3 +1,26 @@
-h2{
-    display: inline;
+ol, ul{
+    list-style: none;
+}
+#mainmenu{
+margin: 20px;
+width: 800px;
+}
+
+#mainMenu li {
+	display:block;
+	width:100px;
+	float:left;
+	margin-left:2px;
+}
+
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+}
+
+#mainMenu a:hover {
+	background-color:#009;
+	color:#FAFAFA;
 }
