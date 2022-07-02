@@ -1,5 +1,6 @@
 ol,ul{
     list-style: none;
+    display: inline;
 }
 .header{
     min-height: 50px;
@@ -8,9 +9,9 @@ ol,ul{
 
 nav{
     display: flex;
-    padding: 2% 6%;
-    align-items: center;
+    padding: 20px 100px;
     justify-content: space-between;
+    border-bottom: 1px solid grey;
 }
 .nav-links{
     flex: 1;
@@ -23,32 +24,6 @@ nav{
     padding: 8px 12px;
     position: relative;
 }
-.helping ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.why ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.conclusion ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.conclusion{
-    background-color: #2549D3;
-}
-.properties{
-    display: inline;
-}
 
 h2{
     color: #2549D3;
@@ -56,4 +31,58 @@ h2{
 }
 p{
     text-align: center;
+}
+
+body{
+    align-items: center;
+}
+
+#sectionB{
+    display: flex;
+    padding: 20px;
+    text-align: left;
+}
+
+#sectionA{
+    display: flex;
+    padding: 20px;
+    text-align: left;
+}
+
+#Works{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+#conclusion{
+    display: flex;
+    text-align: center;
+    background-color: #0F298B;
+    list-style: none;
+    padding: 50px;
+    position: relative;
+    margin: 0;
+}
+
+ul{
+    text-align: left;
+    display: block;
+}
+li{
+    padding: 10px;
+}
+
+#why{
+    display: flex;
+    padding: 50px;
+}
+
+#helping{
+    display: flex;
+    padding: 50px;
+}
+*{
+    padding: 0;
+    margin: 20px;
 }
