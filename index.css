@@ -2,7 +2,7 @@ ol,ul{
     list-style: none;
 }
 .header{
-    min-height: 100vh;
+    min-height: 50px;
     width:100%;
 }
 
@@ -42,4 +42,18 @@ nav{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+}
+.conclusion{
+    background-color: #2549D3;
+}
+.properties{
+    display: inline;
+}
+
+h2{
+    color: #2549D3;
+    text-align: center;
+}
+p{
+    text-align: center;
 }
