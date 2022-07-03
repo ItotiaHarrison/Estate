@@ -1,7 +1,28 @@
+ul{
+    text-align: left;
+    display: block;
+}
+li{
+    padding: 10px;
+}
+
+ol{
+    display: flex;
+    padding: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 20px;
+    font-style: space;
+    font-size: 30px;
+}
+
 ol,ul{
     list-style: none;
     display: inline;
 }
+
 .header{
     min-height: 50px;
     width:100%;
@@ -14,9 +35,11 @@ nav{
     border-bottom: 1px solid grey;
     list-style: none;
 }
+
 .nav-links{
     flex: 1;
     text-align: justify;
+    text-decoration: none;
 }
 
 .nav-links ul li {
@@ -26,10 +49,10 @@ nav{
     position: relative;
 }
 
-h2{
+h3{
     color: #2549D3;
-    text-align: center;
 }
+
 p{
     text-align: left;
 }
@@ -67,19 +90,6 @@ body{
     color: #FAFAFA;
 }
 
-ul{
-    text-align: left;
-    display: block;
-}
-li{
-    padding: 10px;
-}
-
-ol{
-    display: flex;
-    padding: 20px;
-}
-
 #why{
     display: flex;
     padding: 50px;
@@ -89,12 +99,7 @@ ol{
     display: flex;
     padding: 50px;
 }
-*{
-    padding: 0;
-    margin: 20px;
-    font-style: space;
-    font-size: 30px;
-}
+
 
 h1{
     font-style: italic;
@@ -107,10 +112,19 @@ a{
 
 h6{
     text-align: center;
+    color: #2549D3;
 }
-h7{
+h2{
     text-align: left;
     font-style: space;
     font-weight: bold;
+    color: #2549D3;
+}
+h4{
+    text-align: center;
+    color: #2549D3;
+}
+
+h5{
     color: #2549D3;
 }
