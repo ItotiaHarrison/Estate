@@ -26,6 +26,7 @@ ol,ul{
 .header{
     min-height: 50px;
     width:100%;
+    text-decoration: none;
 }
 
 nav{
@@ -39,7 +40,6 @@ nav{
 .nav-links{
     flex: 1;
     text-align: justify;
-    text-decoration: none;
 }
 
 .nav-links ul li {
@@ -58,18 +58,13 @@ p{
 }
 
 body{
-    align-items: center;
+    align-items: left;
 }
 
-#sectionB{
-    display: flex;
-    padding: 20px;
-    text-align: left;
-}
 
-#sectionA{
+#helping{
     display: flex;
-    padding: 20px;
+    padding: 50px;
     text-align: left;
 }
 
@@ -80,26 +75,37 @@ body{
     background-color: #FAFAFA;
 }
 
-#conclusion{
-    display: flex;
-    text-align: left;
-    background-color: #0F298B;
-    list-style: none;
-    padding: 30px;
-    margin: 0;
-    color: #FAFAFA;
-}
 
 #why{
     display: flex;
     padding: 50px;
 }
 
-#helping{
+
+#sectionA{
     display: flex;
-    padding: 50px;
+    padding: 20px;
     text-align: left;
 }
+
+#sectionB{
+    display: flex;
+    padding: 20px;
+    text-align: left;
+}
+
+
+#conclusion{
+    display: flex;
+    text-align: left;
+    background-color: #0F298B;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #FAFAFA;
+}
+
+
 
 
 h1{
@@ -114,6 +120,11 @@ a{
 h6{
     text-align: left;
 }
+
+h7{
+    text-align: left;
+    font-weight: lighter;
+}
 h2{
     text-align: left;
     font-style: space;
@@ -126,10 +137,10 @@ h4{
 }
 
 h5{
-    text-align: left;
+    text-align: center;
 }
 
-h7{
+h8{
     color: #FAFAFA;
 }
 
