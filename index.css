@@ -12,6 +12,7 @@ nav{
     padding: 20px 50px;
     justify-content: space-between;
     border-bottom: 1px solid grey;
+    list-style: none;
 }
 .nav-links{
     flex: 1;
@@ -30,7 +31,7 @@ h2{
     text-align: center;
 }
 p{
-    text-align: center;
+    text-align: left;
 }
 
 body{
@@ -99,6 +100,6 @@ a{
     text-align: right;
 }
 
-#location{
-    display: block;
+h6{
+    text-align: center;
 }
