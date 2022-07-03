@@ -75,6 +75,11 @@ li{
     padding: 10px;
 }
 
+ol{
+    display: flex;
+    padding: 20px;
+}
+
 #why{
     display: flex;
     padding: 50px;
@@ -102,4 +107,10 @@ a{
 
 h6{
     text-align: center;
+}
+h7{
+    text-align: left;
+    font-style: space;
+    font-weight: bold;
+    color: #2549D3;
 }
