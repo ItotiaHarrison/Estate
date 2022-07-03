@@ -54,7 +54,7 @@ h3{
 }
 
 p{
-    text-align: left;
+    text-align: center;
 }
 
 body{
@@ -98,6 +98,7 @@ body{
 #helping{
     display: flex;
     padding: 50px;
+    text-align: left;
 }
 
 
@@ -125,6 +126,3 @@ h4{
     color: #2549D3;
 }
 
-h5{
-    color: #2549D3;
-}
