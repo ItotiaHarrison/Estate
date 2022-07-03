@@ -8,7 +8,7 @@ li{
 
 ol{
     display: flex;
-    padding: 20px;
+    padding: 10px;
 }
 
 *{
@@ -112,8 +112,7 @@ a{
 }
 
 h6{
-    text-align: center;
-    color: #2549D3;
+    text-align: left;
 }
 h2{
     text-align: left;
@@ -126,3 +125,14 @@ h4{
     color: #2549D3;
 }
 
+h5{
+    text-align: left;
+}
+
+h7{
+    color: #FAFAFA;
+}
+
+#View{
+    text-align: right;
+}
