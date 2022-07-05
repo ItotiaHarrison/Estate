@@ -17,7 +17,7 @@ This is the landing page for Vallie's Estate website. It contains all the inform
 ## Licence
 
 ## Link to github
-https://github.com/ItotiaHarrison/Estate
+https://itotiaharrison.github.io/Estate/
 
 ## Authors info
 Email- harrison.itotia@student.moringaschool.com
