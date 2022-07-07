@@ -75,7 +75,7 @@ body{
     text-align: center;
     background-color: #FAFAFA;
     background-clip: border-box;
-    box-shadow: 5px 5px 2em;
+    box-shadow: 1em;
 }
 
 
@@ -88,6 +88,10 @@ body{
 #sectionA{
     display: flex;
     padding: 0 20px;
+    text-align: left;
+}
+
+.SouthAfrica{
     text-align: left;
 }
 
