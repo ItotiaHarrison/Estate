@@ -1,31 +1,15 @@
 *{
     padding: 0;
-    margin: 20px;
+    margin: 0;
     font-style: space;
     font-size: 30px;
-}
-
-ul{
-    text-align: left;
-    display: block;
-    list-style: none;
-}
-li{
-    padding: 10px;
-    text-align: left;
-}
-
-ol{
-    display: flex;
-    padding: 0 100px;
-    list-style: none;
-    text-align: right;
 }
 
 .header{
     min-height: 20px;
     width:100%;
     text-decoration: none;
+    padding: 50px;
 }
 
 nav{
@@ -37,77 +21,108 @@ nav{
     text-decoration: none;
 }
 
-.nav-links{
-    flex: 1;
-    text-align: justify;
-    text-decoration: none;
-}
-
-.nav-links ul li {
-    list-style: none;
+.nav-links a{
     display: inline-block;
-    padding: 8px 12px;
-    position: relative;
     text-decoration: none;
+    padding: 0 20px;
 }
 
 body{
     align-items: left;
 }
 
-
-#helping{
+.intro{
     display: flex;
-    padding: 0;
-    text-align: left;
+    margin: 50px;
 }
+
+
+.helping{
+    width: 50%;
+}
+
 .location{
     display: flex;
-    padding: 0 100px;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 40px;
+
 }
-#Works{
+
+.works{
     display: flex;
-    padding: 0;
+    margin: 100px 50px;
+    justify-content: space-between;
+}
+
+.box{
+    border: 2px solid whitesmoke;
+    width: 500px;
+    height: 300px;
+    background-color: whitesmoke;
     text-align: center;
-    background-color: #FAFAFA;
-    background-clip: border-box;
-    box-shadow: 1em;
+    padding: 20px;
 }
-
-
-#why{
+.why{
     display: flex;
-    padding: 0 20px;
+    padding: 20px;
+    margin: 50px;
+    justify-content: space-between;
 }
 
+.choose{
+    width: 50%;
+}
+
+.checked{
+    display: flex;
+    justify-content: space-between;
+}
 
 #sectionA{
     display: flex;
-    padding: 0 20px;
-    text-align: left;
+    padding: 20px;
+    margin: 50px;
+    justify-content: space-between;
 }
 
-.SouthAfrica{
-    text-align: left;
+.places{
+    display: flex;
+    justify-content: space-around;
+}
+
+.centred{
+    text-align: center;
 }
 
 #sectionB{
     display: flex;
-    padding: 0 20px;
-    text-align: left;
-    text-align: left;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.feedback{
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+}
+
+.feedback:hover{
+    background-color: whitesmoke;
 }
 
 
 .footer{
     display: flex;
-    text-align: left;
     background-color: #0F298B;
-    list-style: none;
-    padding: 0 20px;
-    margin: 0;
+    padding: 50px;
     color: #FAFAFA;
-    width: 100%;
+    justify-content: space-between;
+    height: 400px;
 }
 
 
@@ -130,23 +145,16 @@ h3{
     padding: 0 20px;
 }
 
-h4{
-    text-align: center;
-    color: #2549D3;
-}
 
-h5{
-    text-align: center;
-}
-
-h6{
-    text-align: left;
-}
-
-a{
+#view{
     text-align: right;
+    margin: 50px;
 }
 
-.View{
-    margin-left: 70%;
+button{
+    color: white;
+    background-color: #0F298B;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
 }
