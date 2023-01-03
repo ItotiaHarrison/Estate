@@ -1,53 +1,31 @@
 *{
-    padding: 0;
     margin: 20px;
-    font-style: space;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-ul{
-    text-align: left;
-    display: block;
-    list-style: none;
+p{
+    font-size: 1.2em;
 }
+
+
 li{
-    padding: 10px;
-    text-align: left;
+    color: black;
 }
 
-ol{
-    display: flex;
-    padding: 0 100px;
-    list-style: none;
-    text-align: right;
-}
-
-.header{
-    min-height: 20px;
-    width:100%;
-    text-decoration: none;
-}
 
 nav{
     display: flex;
-    padding: 0 100px;
-    justify-content: space-between;
     border-bottom: 1px solid grey;
-    list-style: none;
-    text-decoration: none;
+    position: relative;
+    justify-content: center;
 }
 
-.nav-links{
-    flex: 1;
-    text-align: justify;
-    text-decoration: none;
-}
 
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
-    position: relative;
     text-decoration: none;
 }
 
@@ -59,8 +37,8 @@ body{
 #helping{
     display: flex;
     padding: 0;
-    text-align: left;
 }
+
 .location{
     display: flex;
     padding: 0 100px;
@@ -85,68 +63,66 @@ body{
     display: flex;
     padding: 0 20px;
     text-align: left;
+    background-color: #FAFAFA;
 }
 
-.SouthAfrica{
-    text-align: left;
+.customers{
+    text-align: center;
 }
 
-#sectionB{
+.sectionB{
     display: flex;
+    justify-content: space-between;
     padding: 0 20px;
-    text-align: left;
-    text-align: left;
+    background-color: #FAFAFA;
+}
+
+.box{
+    height: fit-content;
+    border-radius: 10px;
+    background-color:#FFFFFF ;
 }
 
 
-.footer{
+footer{
     display: flex;
-    text-align: left;
-    background-color: #0F298B;
-    list-style: none;
-    padding: 0 20px;
-    margin: 0;
-    color: #FAFAFA;
+    background-color: #2549D3;
     width: 100%;
 }
 
 
-
-
 h1{
-    font-style: italic;
+    color: #2549D3;
+    font-size: 2em;
     font-weight: bold;
+
 }
 
 h2{
-    text-align: left;
-    font-style: space;
+    font-style: italic;
     font-weight: bold;
-    color: #2549D3;
+    color: black;
+    font-size: 2em;
 }
 
 h3{
-    color: #2549D3;
-    padding: 0 20px;
+    font-size: 1.5em;
 }
 
 h4{
-    text-align: center;
+    font-size: 2em;
     color: #2549D3;
+    margin-left: 100px;
 }
 
-h5{
-    text-align: center;
+
+button{
+    background-color: #2549D3;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-h6{
-    text-align: left;
-}
-
-a{
+.view{
     text-align: right;
-}
-
-.View{
-    margin-left: 70%;
 }
